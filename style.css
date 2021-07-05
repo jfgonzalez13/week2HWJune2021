@@ -1,0 +1,59 @@
+#window1 {
+    border: 1px solid;
+    width: 500px;
+    height: 336px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#imageSlider1 {
+    display: flex;
+    transform: translateX(-000px);
+    animation: animation 30s infinite;
+}
+#window2 {
+    border: 1px solid;
+    width: 500px;
+    height: 336px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#imageSlider2 {
+    display: flex;
+   }
+
+#slideNumber{
+    display:table;
+    margin: 0 auto;
+}
+
+#buttonContainer{
+    display:table;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 336px;
+}
+
+
+@keyframes animation {
+    0% {transition: ease-in 10s; transform: translateX(000px);}
+    10% {transition: ease-in 10s; transform: translateX(-500px);}
+    20% {transition: ease-in 10s; transform: translateX(-1000px);}
+    30% {transition: ease-in 10s; transform: translateX(-1500px);}
+    40% {transition: ease-in 10s; transform: translateX(-2000px);}
+    50% {transition: ease-in 10s; transform: translateX(-2500px);}
+    60% {transition: ease-in 10s; transform: translateX(-2000px);}
+    70% {transition: ease-in 10s; transform: translateX(-1500px);}
+    80% {transition: ease-in 10s; transform: translateX(-1000px);}
+    90% {transition: ease-in 10s; transform: translateX(-400px);}
+    100% {transition: ease-in 10s; transform: translateX(000px);}     
+
+}
